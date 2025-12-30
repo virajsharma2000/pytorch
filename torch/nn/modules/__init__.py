@@ -1,4 +1,5 @@
 from .module import Module  # usort: skip
+from .transformer_embedding import TransformerEmbedding
 from .linear import Bilinear, Identity, LazyLinear, Linear  # usort: skip
 from .activation import (
     CELU,
